@@ -1,6 +1,6 @@
 import numpy as np
 
-from skimage.draw import circle
+from skimage.draw import circle_perimeter as circle
 
 
 def morris_water_maze(radius, platform_center, platform_radius):
